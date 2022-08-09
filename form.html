@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+
+   <header align="center">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="table.html">table</a>
+            <a href="form.html">form</a>
+            <a href="league.html">league table</a>
+            <a href="contact.html">contact</a>
+        </nav>
+    </header>
+    <h2>REGISTRATION FORM</h2>
+    <form method="post">
+        <p>
+           <label for="fn">FIRST NAME</label>
+           <input type="text" name="fn" id="fn" placeholder="eg.bala">  
+        </p>
+        <p>
+            <label for="ln">LAST NAME</label>
+            <input type="text" name="ln" id="ln" placeholder="eg.musa">
+        </p>
+        <p>
+            <label for="dob">DATE OF BIRTH</label>
+            <input type="date" name="dob" id="dob" placeholder="eg.date">
+        </p>
+        <p>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" placeholder="eg.email">
+        </p>
+        <p>
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" placeholder="eg.password">
+        </p>
+        <p>
+            <label for="gender">GENDER</label>
+            <input type="radio" name="gender" id="gender">male
+            <input type="radio" name="gender" id="gender">female
+        </p>
+        <p>
+            <label for="number">PHONE NUMBER</label>
+            <input type="number" name="number" id="number" placeholder="eg.number">
+        </p>
+        <p>
+            <label for="number">AGE</label>
+            <input type="age" name="min18max35" id="number">
+        </p>
+        <p>
+            <label for="time">TIME</label>
+            <input type="time" name="time" id="time">
+        </p>
+        <p>
+            <label for="month">MONTH</label>
+            <input type="month" name="month" id="month">
+        </p>
+        <p>
+            <label for="color">COLOR</label>
+            <input type="color" name="color" id="color">
+        </p>
+        <P>
+            <label for="week">WEEK</label>
+            <input type="Week" name="week" id="week">
+        </P>
+        <P>
+            <label for="range">RANGE</label>
+            <input type="range" name="range" id="range">
+        </P>
+        <P>
+            <label for="address">ADDRESS</label>
+            <textarea name="address" id="address" cols="40" rows="20" placeholder="eg.address"></textarea>
+        </P>
+        <P>
+            <label for="state">STATE OF ORIGIN</label>
+            <select name="" id="">
+            <option value="choose state">
+            <option value="abuja">abuja</option>
+            <option value="ibadan">ibandan</option>
+            </select>
+        </P>
+        <P>
+            <label for="upload">UPLOAD CV</label>
+            <input type="file">
+        </P>
+        <P>
+            <label for="agree">AGREEMENT</label>
+            <input type="checkbox" name="" id="">
+            </P>
+            <p>
+                <button type="submit">sumbit</button>
+                <button type="reset">reset</button>
+            </p>
+    </form>
+</body>
+</html>
